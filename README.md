@@ -27,6 +27,11 @@ When used properly, we can maximize the volume of data used in training our mode
 _______________________________________________________________________________________________________________________________________
 # Code
 There are many ways to replicate a CV approach with programming. This is simply one approach using Sci-Kit Learn's `cross_val_score` module to compute the CV score, and we'll use it by creating a set of Python methods to automate the process for us. 
+
+It's a simple, but useful example program to help learn how cross validation and k-folds can be used to augment and test your model. 
+
+## How To Use
+Generate a model! Then, simply pass the model, your features, your target variable, and two k-fold values into our `CrossVal()` method, to compare the accuracy and effect of differing k-fold values.  
 _______________________________________________________________________________________________________________________________________
 
 ## Import
